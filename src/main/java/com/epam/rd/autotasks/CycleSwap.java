@@ -2,7 +2,7 @@ package com.epam.rd.autotasks;
 
 class CycleSwap {
     static void cycleSwap(int[] array) {
-        int x = array[array.length-1], i;
+       int x = array[array.length-1], i;
         for (i = array.length-1; i > 0; i--)
             array[i] = array[i-1];
         array[0] = x;
